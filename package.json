@@ -1,0 +1,34 @@
+{
+  "name": "logViewerNodeServer",
+  "version": "0.0.1",
+  "description": "LogViewer-server's node.js version",
+  "bugs": {
+    "url": "https://github.com/alberto-morales/logViewerNodeServer/issues",
+    "email": "mail@albertomorales.eu"
+  },
+  "license": "LGPL-3.0",
+  "author": "Alberto Morales <mail@albertomorales.eu> - http://albertomorales.eu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alberto-morales/logViewerNodeServer"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "async": "^2.1.4",
+    "cors": "^2.8.1",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "graceful-fs": "^4.1.11",
+    "node-hashtable": "^0.1.1",
+    "request": "^2.79.0",
+    "rimraf": "^2.5.4",
+    "socket.io": "^1.7.2",
+    "ssh2": "^0.5.4",
+    "ssh2-utils": "^1.0.28"
+  },
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "main": "app/app.js"
+}
+
